@@ -16,4 +16,4 @@ spec:
   - key: "roboshop"
     operator: "Equal"
     value: "roboshop"
-    effect: "NoExecute"
+    effect: "NoSchedule"
