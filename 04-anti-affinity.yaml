@@ -12,7 +12,7 @@ spec:
         nodeSelectorTerms:
         - matchExpressions:
           - key: topology.kubernetes.io/zone
-            operator: NotInIn
+            operator: NotIn
             values:
             - us-east-1f
   containers:
