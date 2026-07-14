@@ -16,7 +16,7 @@ spec:
             values:
             - us-east-1f
           - key: project
-            operator: NotIn
+            operator: In
             values:
             - amazon
   containers:
