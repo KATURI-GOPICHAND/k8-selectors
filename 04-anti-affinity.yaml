@@ -15,7 +15,10 @@ spec:
             operator: NotIn
             values:
             - us-east-1f
-            - us-east-1c
+          - key: project
+            operator: In
+            values:
+            - amazon
   containers:
   - name: nginx
     image: nginx
